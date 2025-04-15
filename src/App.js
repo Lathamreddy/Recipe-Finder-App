@@ -15,14 +15,6 @@ const Navigation = () => {
 
   // Hide navigation on login and signup pages
   if (hideNavPaths.includes(location.pathname)) return null;
-
-  // return (
-    // <nav className="flex gap-6 justify-center text-lg font-semibold text-rose-600 mb-8">
-    //   <Link to="/home">🏠 Home</Link>
-    //   <Link to="/search">🔍 Search</Link>
-    //   <Link to="/favourites">❤️ Favourites</Link>
-    // </nav>
-  // );
 };
 
 const App = () => {
