@@ -13,7 +13,7 @@ const Navigation = () => {
   const location = useLocation();
   const hideNavPaths = ['/', '/signup'];
 
-  // Hide navigation on login and signup pages
+  
   if (hideNavPaths.includes(location.pathname)) return null;
 };
 
