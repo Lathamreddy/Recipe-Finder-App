@@ -1,0 +1,90 @@
+.login-wrapper {
+    height: 100vh;
+    background: linear-gradient(to top right, #fdfcfb, #e2d1c3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 420px;
+    animation: fadeIn 0.5s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+  }
+  
+  input.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input.form-control:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.4);
+  }
+  
+  .text-danger {
+    font-size: 0.875rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  button.btn-success {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  button.btn-success:hover {
+    background-color: #218838;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-15px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
