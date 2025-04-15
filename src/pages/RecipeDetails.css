@@ -1,4 +1,4 @@
-/* Background with food pattern */
+
 .bg-orange-50 {
     position: relative;
     background-color: #fffaf3;
@@ -16,7 +16,7 @@
     z-index: -1;
   }
   
-  /* Page Container */
+ 
   .max-w-3xl {
     max-width: 768px;
   }
@@ -42,7 +42,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
-  /* Back Button */
+  
   .text-sm {
     font-size: 0.875rem;
   }
@@ -59,7 +59,7 @@
     text-decoration: underline;
   }
   
-  /* Card Container */
+
   .bg-white {
     background-color: #ffffff;
   }
@@ -76,7 +76,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
   }
   
-  /* Recipe Image */
+ 
   .w-\[150px\] {
     width: 150px;
   }
@@ -102,7 +102,7 @@
     margin-bottom: 1rem;
   }
   
-  /* Recipe Text */
+ 
   .text-center {
     text-align: center;
   }
@@ -127,7 +127,7 @@
     margin-bottom: 0.5rem;
   }
   
-  /* Section Headings */
+
   .text-lg {
     font-size: 1.125rem;
   }
