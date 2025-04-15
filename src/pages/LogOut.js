@@ -5,10 +5,10 @@ const Logout = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Clear user data
+    
     localStorage.removeItem("user");
 
-    // Redirect to login page ("/" is login route in updated App.js)
+   
     navigate("/");
   }, [navigate]);
 
